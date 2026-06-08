@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://turistuble.cl/sitemap.xml

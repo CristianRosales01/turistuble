@@ -6,6 +6,99 @@ const slug = params.get('slug') || hashParams.get('slug') || localStorage.getIte
 let carouselIndex = 0;
 let carouselImages = [];
 
+const SITE_URL = 'https://turistuble.cl';
+
+function setMeta(selector, attrName, attrValue, content) {
+  let element = document.head.querySelector(selector);
+  if (!element) {
+    element = document.createElement('meta');
+    element.setAttribute(attrName, attrValue);
+    document.head.appendChild(element);
+  }
+  element.setAttribute('content', content);
+}
+
+function setCanonical(url) {
+  let canonical = document.head.querySelector('link[rel="canonical"]');
+  if (!canonical) {
+    canonical = document.createElement('link');
+    canonical.setAttribute('rel', 'canonical');
+    document.head.appendChild(canonical);
+  }
+  canonical.setAttribute('href', url);
+}
+
+function actualizarSeoFicha(item) {
+  const descripcion = (item.descripcionLarga || item.descripcion || 'Ficha turística en Turistuble, buscador turístico de Ñuble.').replace(/\s+/g, ' ').trim();
+  const descripcionCorta = descripcion.length > 158 ? `${descripcion.slice(0, 155)}...` : descripcion;
+  const titulo = `${item.nombre} en ${item.comuna}, Ñuble | Turistuble`;
+  const canonicalUrl = `${SITE_URL}/negocio.html?slug=${encodeURIComponent(item.slug)}`;
+  const imagen = normalizarRutaImagen((item.imagenes && item.imagenes[0]) || '/assets/img/og-turistuble.svg');
+  const imagenAbsoluta = imagen.startsWith('http') ? imagen : `${SITE_URL}${imagen}`;
+
+  document.title = titulo;
+  setCanonical(canonicalUrl);
+  setMeta('meta[name="description"]', 'name', 'description', descripcionCorta);
+  setMeta('meta[property="og:title"]', 'property', 'og:title', titulo);
+  setMeta('meta[property="og:description"]', 'property', 'og:description', descripcionCorta);
+  setMeta('meta[property="og:url"]', 'property', 'og:url', canonicalUrl);
+  setMeta('meta[property="og:image"]', 'property', 'og:image', imagenAbsoluta);
+  setMeta('meta[property="og:image:alt"]', 'property', 'og:image:alt', `${item.nombre} en ${item.comuna}, Región de Ñuble`);
+  setMeta('meta[name="twitter:title"]', 'name', 'twitter:title', titulo);
+  setMeta('meta[name="twitter:description"]', 'name', 'twitter:description', descripcionCorta);
+  setMeta('meta[name="twitter:image"]', 'name', 'twitter:image', imagenAbsoluta);
+
+  const schemaType = item.categoria === 'Alojamiento'
+    ? 'LodgingBusiness'
+    : item.categoria === 'Gastronomía'
+      ? 'FoodEstablishment'
+      : item.tipo === 'Evento'
+        ? 'Event'
+        : 'TouristAttraction';
+
+  const schema = {
+    '@context': 'https://schema.org',
+    '@type': schemaType,
+    name: item.nombre,
+    description: descripcionCorta,
+    image: imagenAbsoluta,
+    url: canonicalUrl,
+    areaServed: 'Región de Ñuble, Chile',
+    address: {
+      '@type': 'PostalAddress',
+      addressRegion: 'Ñuble',
+      addressCountry: 'CL',
+      addressLocality: item.comuna,
+      streetAddress: item.direccion || item.referencia || item.sector || ''
+    }
+  };
+
+  if (item.whatsapp) schema.telephone = `+${item.whatsapp}`;
+  if (item.ubicacionGoogleMaps) schema.hasMap = item.ubicacionGoogleMaps;
+  if (item.precio) schema.priceRange = item.precio;
+  if (item.fechaInicio && schemaType === 'Event') {
+    schema.startDate = item.fechaInicio + (item.horaInicio ? `T${item.horaInicio}:00` : '');
+    schema.endDate = (item.fechaFin || item.fechaInicio) + (item.horaFin ? `T${item.horaFin}:00` : '');
+    schema.eventAttendanceMode = 'https://schema.org/OfflineEventAttendanceMode';
+    schema.eventStatus = 'https://schema.org/EventScheduled';
+    schema.location = {
+      '@type': 'Place',
+      name: item.direccion || item.sector || item.comuna,
+      address: schema.address
+    };
+  }
+
+  let script = document.head.querySelector('#listingStructuredData');
+  if (!script) {
+    script = document.createElement('script');
+    script.type = 'application/ld+json';
+    script.id = 'listingStructuredData';
+    document.head.appendChild(script);
+  }
+  script.textContent = JSON.stringify(schema, null, 2);
+}
+
+
 const menuToggle = document.querySelector('#menuToggle');
 const navActions = document.querySelector('#navActions');
 if (menuToggle && navActions) {
@@ -35,7 +128,7 @@ async function cargarFicha() {
       return;
     }
 
-    document.title = `${item.nombre} | Turistuble`;
+    actualizarSeoFicha(item);
     detalle.innerHTML = crearDetalle(item);
     inicializarCarrusel(item.imagenes || []);
   } catch (error) {

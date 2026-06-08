@@ -29,3 +29,15 @@ Abrir: http://localhost:3000
 
 - WhatsApp: +56 9 7716 7740
 - Email: turistuble@gmail.com
+
+
+## SEO agregado en v17
+
+- Metadatos SEO por página: title, description, keywords, robots, canonical, Open Graph y Twitter Cards.
+- Metas geográficas para Región de Ñuble, Chile.
+- JSON-LD base para WebSite, SearchAction y Organization.
+- `robots.txt` y `sitemap.xml` generados.
+- Imagen social `assets/img/og-turistuble.svg`.
+- En `negocio.html`, el JavaScript actualiza título, descripción, canonical, OG/Twitter y JSON-LD según el `slug` cargado desde `negocios.json`.
+
+Antes de publicar, si usas otro dominio, reemplaza `https://turistuble.cl` en los HTML, `robots.txt`, `sitemap.xml` y `assets/js/negocio.js`.

@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-labelledby="title desc">
+  <title id="title">Turistuble - Buscador turístico de Ñuble</title>
+  <desc id="desc">Imagen social de Turistuble con paisaje, montaña y turismo de Ñuble.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#f8f3e7"/>
+      <stop offset="1" stop-color="#dbe8dc"/>
+    </linearGradient>
+    <linearGradient id="green" x1="0" x2="1" y1="0" y2="0">
+      <stop offset="0" stop-color="#005d46"/>
+      <stop offset="1" stop-color="#08785f"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <circle cx="980" cy="135" r="72" fill="#f3b23b" opacity=".85"/>
+  <path d="M0 385 C150 300 260 335 375 260 C520 165 650 335 765 245 C890 145 1010 250 1200 150 L1200 630 L0 630 Z" fill="#bfd6c9"/>
+  <path d="M0 455 C200 360 370 455 530 350 C680 255 820 400 980 320 C1075 275 1135 300 1200 260 L1200 630 L0 630 Z" fill="#85b09d"/>
+  <path d="M0 520 C210 440 390 510 580 430 C735 365 890 465 1040 405 C1120 372 1160 380 1200 350 L1200 630 L0 630 Z" fill="#005d46"/>
+  <rect x="95" y="82" width="94" height="94" rx="26" fill="url(#green)"/>
+  <text x="142" y="150" fill="white" font-family="Arial, Helvetica, sans-serif" font-size="64" font-weight="800" text-anchor="middle">T</text>
+  <text x="220" y="145" fill="#073b2e" font-family="Georgia, serif" font-size="86" font-weight="700">Turistuble</text>
+  <text x="98" y="230" fill="#073b2e" font-family="Arial, Helvetica, sans-serif" font-size="36" font-weight="700">El buscador turístico de Ñuble</text>
+  <text x="98" y="285" fill="#37594d" font-family="Arial, Helvetica, sans-serif" font-size="27">Cabañas · Hoteles · Gastronomía · Panoramas · Eventos gratis</text>
+  <rect x="95" y="370" width="470" height="74" rx="37" fill="#ffffff" opacity=".96"/>
+  <text x="130" y="417" fill="#08785f" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="800">Descubre lo mejor de Ñuble</text>
+</svg>
