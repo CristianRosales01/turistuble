@@ -16,9 +16,12 @@
       </a>
       <button class="menu-toggle" id="menuToggle" type="button" aria-label="Abrir menú">☰</button>
       <div class="nav-actions" id="navActions">
+        <a href="/index.html#buscar">Buscar</a>
         <a href="/index.html#explorar">Explorar</a>
-        <a href="#planes">Planes</a>
-        <a href="#formulario">Formulario</a>
+        <a href="/index.html#destacados">Destacados</a>
+        <a href="/index.html#eventos">Eventos gratis</a>
+        <a href="/publicar.html#planes">Planes</a>
+        <a href="/publicar.html" class="btn btn-primary">Publicar negocio</a>
       </div>
     </nav>
   </header>
@@ -46,9 +49,9 @@
     <section id="planes" class="plans-section page-plans">
       <div class="container">
         <div class="section-heading center">
-          <span class="eyebrow">Planes MVP</span>
+          <span class="eyebrow">Planes Turistuble</span>
           <h2>Elige cómo quieres aparecer</h2>
-          <p>Simple para validar: eventos gratuitos sin costo y negocios turísticos con precio fundador.</p>
+          <p>Eventos gratuitos sin costo y planes para negocios turísticos que buscan mayor visibilidad en Ñuble.</p>
         </div>
         <div class="plans-grid three-plans">
           <article class="plan-card">
@@ -78,18 +81,19 @@
             </ul>
             <a href="#formulario" class="btn btn-primary" data-set-type="Negocio">Quiero aparecer</a>
           </article>
-          <article class="plan-card muted-plan">
-            <span class="badge-soft static-badge">Futuro</span>
+          <article class="plan-card highlighted-plan">
+            <span class="badge static-badge">Más visibilidad</span>
             <h3>Plan Destacado</h3>
-            <p class="price">Próximamente</p>
-            <p>Para negocios que quieran mayor visibilidad.</p>
+            <p class="price">$9.990 <small>/ mes</small></p>
+            <p>Para negocios que quieran aparecer con mayor presencia dentro de Turistuble.</p>
             <ul>
-              <li>Posición destacada</li>
+              <li>Todo lo del Plan Emprendedor</li>
+              <li>Posición destacada en la vitrina</li>
               <li>Mayor presencia en portada</li>
-              <li>Más publicaciones mensuales</li>
-              <li>Campañas por temporada</li>
+              <li>Publicación destacada mensual</li>
+              <li>Prioridad en campañas por temporada</li>
             </ul>
-            <button class="btn btn-ghost" type="button" disabled>Etapa 2</button>
+            <a href="#formulario" class="btn btn-primary" data-set-type="Negocio">Quiero destacar</a>
           </article>
         </div>
       </div>
@@ -97,9 +101,9 @@
 
     <section id="formulario" class="container form-layout">
       <div class="section-heading">
-        <span class="eyebrow">Solicitud MVP</span>
+        <span class="eyebrow">Solicitud de publicación</span>
         <h2>Completa los datos para publicar</h2>
-        <p>Este formulario no guarda en base de datos. Genera un mensaje listo para enviar por WhatsApp; luego se revisa y se agrega manualmente al JSON.</p>
+        <p>Completa los datos y genera un mensaje listo para enviar por WhatsApp. Luego se revisa la información y se publica la ficha en Turistuble.</p>
       </div>
 
       <section class="form-card">
@@ -186,11 +190,21 @@
     </section>
   </main>
 
-  <footer class="site-footer">
-    <div class="container footer-grid">
-      <strong>Turistuble</strong>
-      <a href="/index.html">Volver al inicio</a>
-    </div>
+  <footer class="site-footer site-footer-nav">
+    <nav class="nav container footer-nav" aria-label="Navegación inferior">
+      <a href="/index.html" class="brand" aria-label="Inicio Turistuble">
+        <span class="brand-mark">T</span>
+        <span>Turistuble</span>
+      </a>
+      <div class="nav-actions footer-actions">
+        <a href="/index.html#buscar">Buscar</a>
+        <a href="/index.html#explorar">Explorar</a>
+        <a href="/index.html#destacados">Destacados</a>
+        <a href="/index.html#eventos">Eventos gratis</a>
+        <a href="/publicar.html#planes">Planes</a>
+        <a href="/publicar.html" class="btn btn-primary">Publicar negocio</a>
+      </div>
+    </nav>
   </footer>
 
   <script src="/assets/js/publicar.js"></script>

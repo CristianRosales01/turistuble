@@ -679,3 +679,16 @@ pre { white-space: pre-wrap; word-break: break-word; font-family: ui-monospace, 
   .search-panel-main .field-large,
   .search-panel-main .btn-search { grid-column: auto; }
 }
+
+/* v13: plan destacado activo */
+.highlighted-plan {
+  border-color: rgba(245, 166, 35, .45);
+  background: linear-gradient(180deg, rgba(245, 166, 35, .10), var(--surface) 48%);
+  transform: translateY(-3px);
+}
+.highlighted-plan .price {
+  color: var(--text);
+}
+@media (max-width: 760px) {
+  .highlighted-plan { transform: none; }
+}
