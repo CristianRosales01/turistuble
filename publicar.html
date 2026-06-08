@@ -93,7 +93,7 @@
               <li>Publicación destacada mensual</li>
               <li>Prioridad en campañas por temporada</li>
             </ul>
-            <a href="#formulario" class="btn btn-primary" data-set-type="Negocio">Quiero destacar</a>
+            <a href="#formulario" class="btn btn-primary" data-set-type="Negocio Turístico Destacado">Quiero destacar</a>
           </article>
         </div>
       </div>
@@ -114,6 +114,7 @@
               <select id="tipoPublicacion" required>
                 <option value="Negocio">Negocio turístico</option>
                 <option value="Evento">Evento gratuito</option>
+                <option value="Negocio Turístico Destacado">Negocio Turístico Destacado</option>
               </select>
             </div>
             <div class="field">
@@ -138,7 +139,36 @@
             </div>
             <div class="field">
               <label for="comuna">Comuna</label>
-              <input id="comuna" type="text" placeholder="Ej: Pinto" required />
+              <select id="comuna" required>
+                <option value="">Selecciona comuna</option>
+                <optgroup label="Provincia de Diguillín">
+                  <option value="Bulnes">Bulnes</option>
+                  <option value="Chillán">Chillán</option>
+                  <option value="Chillán Viejo">Chillán Viejo</option>
+                  <option value="El Carmen">El Carmen</option>
+                  <option value="Pemuco">Pemuco</option>
+                  <option value="Pinto">Pinto</option>
+                  <option value="Quillón">Quillón</option>
+                  <option value="San Ignacio">San Ignacio</option>
+                  <option value="Yungay">Yungay</option>
+                </optgroup>
+                <optgroup label="Provincia de Punilla">
+                  <option value="Coihueco">Coihueco</option>
+                  <option value="Ñiquén">Ñiquén</option>
+                  <option value="San Carlos">San Carlos</option>
+                  <option value="San Fabián">San Fabián</option>
+                  <option value="San Nicolás">San Nicolás</option>
+                </optgroup>
+                <optgroup label="Provincia de Itata">
+                  <option value="Cobquecura">Cobquecura</option>
+                  <option value="Coelemu">Coelemu</option>
+                  <option value="Ninhue">Ninhue</option>
+                  <option value="Portezuelo">Portezuelo</option>
+                  <option value="Quirihue">Quirihue</option>
+                  <option value="Ránquil">Ránquil</option>
+                  <option value="Treguaco">Treguaco</option>
+                </optgroup>
+              </select>
             </div>
             <div class="field">
               <label for="sector">Sector</label>
@@ -205,6 +235,11 @@
         <a href="/publicar.html" class="btn btn-primary">Publicar negocio</a>
       </div>
     </nav>
+    <div class="container footer-contact" aria-label="Contacto Turistuble">
+      <a href="https://wa.me/56977167740" target="_blank" rel="noreferrer">WhatsApp: +56 9 7716 7740</a>
+      <span aria-hidden="true">·</span>
+      <a href="mailto:turistuble@gmail.com">turistuble@gmail.com</a>
+    </div>
   </footer>
 
   <script src="/assets/js/publicar.js"></script>

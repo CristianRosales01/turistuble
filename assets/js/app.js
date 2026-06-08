@@ -13,6 +13,12 @@ const normalizar = (valor = '') => valor
   .normalize('NFD')
   .replace(/[\u0300-\u036f]/g, '');
 
+const COMUNAS_NUBLE = [
+  'Bulnes', 'Chillán', 'Chillán Viejo', 'El Carmen', 'Pemuco', 'Pinto', 'Quillón', 'San Ignacio', 'Yungay',
+  'Coihueco', 'Ñiquén', 'San Carlos', 'San Fabián', 'San Nicolás',
+  'Cobquecura', 'Coelemu', 'Ninhue', 'Portezuelo', 'Quirihue', 'Ránquil', 'Treguaco'
+];
+
 
 async function cargarHeroSlides() {
   try {
@@ -136,7 +142,7 @@ function poblarSelect(selector, valores) {
 
 function poblarFiltros() {
   poblarSelect('#categoria', valoresUnicos('categoria'));
-  poblarSelect('#comuna', valoresUnicos('comuna'));
+  poblarSelect('#comuna', COMUNAS_NUBLE);
 }
 
 function activarEventos() {

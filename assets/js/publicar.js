@@ -1,4 +1,5 @@
-const telefonoTuristuble = '569XXXXXXXX';
+const telefonoTuristuble = '56977167740';
+const correoTuristuble = 'turistuble@gmail.com';
 const form = document.querySelector('#formPublicar');
 const preview = document.querySelector('#previewMensaje');
 const copiarBtn = document.querySelector('#copiarMensaje');
@@ -16,6 +17,20 @@ if (menuToggle && navActions) {
 
 function valor(id) {
   return document.querySelector(`#${id}`).value.trim();
+}
+
+function obtenerPlanSolicitado() {
+  const tipo = valor('tipoPublicacion');
+
+  if (tipo === 'Evento') {
+    return 'Comunidad gratis';
+  }
+
+  if (tipo === 'Negocio Turístico Destacado') {
+    return 'Destacado $9.990 mensual';
+  }
+
+  return 'Emprendedor $5.990 mensual';
 }
 
 function generarMensaje() {
@@ -40,7 +55,11 @@ Facebook: ${valor('facebook')}
 Descripción:
 ${valor('descripcion')}
 
-Plan solicitado: ${valor('tipoPublicacion') === 'Evento' ? 'Comunidad gratis' : 'Emprendedor $5.990 mensual'}`;
+Plan solicitado: ${obtenerPlanSolicitado()}
+
+Contacto Turistuble:
+WhatsApp: +56 9 7716 7740
+Email: ${correoTuristuble}`;
 }
 
 function actualizarPreview() {
@@ -50,7 +69,9 @@ function actualizarPreview() {
 }
 
 function aplicarTipo(tipo) {
-  if (tipo === 'Evento' || tipo === 'Negocio') {
+  const tiposValidos = ['Evento', 'Negocio', 'Negocio Turístico Destacado'];
+
+  if (tiposValidos.includes(tipo)) {
     document.querySelector('#tipoPublicacion').value = tipo;
     actualizarPreview();
   }
@@ -61,6 +82,7 @@ function aplicarParametroInicial() {
   const tipo = params.get('tipo');
   if (tipo === 'evento') aplicarTipo('Evento');
   if (tipo === 'negocio') aplicarTipo('Negocio');
+  if (tipo === 'destacado') aplicarTipo('Negocio Turístico Destacado');
 }
 
 campos.forEach(id => {

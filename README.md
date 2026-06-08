@@ -17,3 +17,15 @@ npm start
 ```
 
 Abrir: http://localhost:3000
+
+
+## Actualización v15
+- Selector de comuna actualizado con las 21 comunas de la Región de Ñuble.
+- En el formulario, las comunas se agrupan por provincia: Diguillín, Punilla e Itata.
+- En el buscador principal, el selector de comuna muestra todas las comunas, aunque todavía no existan registros cargados en el JSON.
+
+
+## Contacto configurado
+
+- WhatsApp: +56 9 7716 7740
+- Email: turistuble@gmail.com
