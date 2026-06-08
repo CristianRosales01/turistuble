@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "titulo": "Escápate a Las Trancas",
+    "subtitulo": "Cabañas, tinajas, nieve, termas y naturaleza en la cordillera de Ñuble.",
+    "categoria": "Publicidad destacada",
+    "ctaTexto": "Ver alojamientos",
+    "ctaFiltro": "Alojamiento",
+    "imagen": "/assets/img/placeholder-cabana.svg"
+  },
+  {
+    "id": 2,
+    "titulo": "Panoramas gratuitos en Ñuble",
+    "subtitulo": "Fiestas, ferias, eventos familiares y actividades abiertas para disfrutar la región.",
+    "categoria": "Comunidad",
+    "ctaTexto": "Ver eventos gratis",
+    "ctaTextoBusqueda": "gratis",
+    "imagen": "/assets/img/placeholder-evento.svg"
+  },
+  {
+    "id": 3,
+    "titulo": "Sabores y experiencias locales",
+    "subtitulo": "Restaurantes, picadas, cafeterías, viñas y emprendimientos turísticos de la zona.",
+    "categoria": "Gastronomía local",
+    "ctaTexto": "Explorar gastronomía",
+    "ctaFiltro": "Gastronomía",
+    "imagen": "/assets/img/placeholder-food.svg"
+  },
+  {
+    "id": 4,
+    "titulo": "Naturaleza, costa y descanso",
+    "subtitulo": "Descubre Cobquecura, Quillón, San Fabián y rutas para una escapada distinta.",
+    "categoria": "Destino destacado",
+    "ctaTexto": "Buscar naturaleza",
+    "ctaTextoBusqueda": "naturaleza",
+    "imagen": "/assets/img/placeholder-nature.svg"
+  }
+]

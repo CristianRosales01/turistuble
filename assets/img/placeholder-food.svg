@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 560">
+  <rect width="900" height="560" fill="#f7f4ee"/>
+  <circle cx="450" cy="300" r="165" fill="#fff" stroke="#e5ded1" stroke-width="24"/>
+  <circle cx="450" cy="300" r="95" fill="#f0a929" opacity=".85"/>
+  <rect x="210" y="120" width="32" height="330" rx="16" fill="#0f7b5f"/>
+  <rect x="660" y="120" width="32" height="330" rx="16" fill="#0f7b5f"/>
+  <text x="65" y="95" font-family="Arial" font-size="42" font-weight="700" fill="#1d2a24">Gastronomía local</text>
+</svg>

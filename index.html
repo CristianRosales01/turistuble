@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Turistuble | El buscador turístico de Ñuble</title>
+  <meta name="description" content="Encuentra cabañas, hoteles, restaurantes, eventos gratuitos y experiencias turísticas en Ñuble." />
+  <link rel="stylesheet" href="/assets/css/styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <nav class="nav container">
+      <a href="/index.html" class="brand" aria-label="Inicio Turistuble">
+        <span class="brand-mark">T</span>
+        <span>Turistuble</span>
+      </a>
+      <button class="menu-toggle" id="menuToggle" type="button" aria-label="Abrir menú">☰</button>
+      <div class="nav-actions" id="navActions">
+        <a href="#buscar">Buscar</a>
+        <a href="#explorar">Explorar</a>
+        <a href="#destacados">Destacados</a>
+        <a href="#eventos">Eventos gratis</a>
+        <a href="/publicar.html">Planes</a>
+        <a href="/publicar.html" class="btn btn-primary">Publicar negocio</a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero-ad-carousel hero-v11" aria-label="Promociones destacadas de Turistuble">
+      <div class="hero-carousel">
+        <article id="heroSlide" class="hero-slide" style="background-image: url('/assets/img/placeholder-cabana.svg')">
+          <div class="hero-slide-overlay"></div>
+          <div class="container hero-slide-content">
+            <div class="hero-copy-on-image">
+              <span id="heroSlideCategory" class="eyebrow">Destino destacado</span>
+              <h1 id="heroSlideTitle">Escápate a Las Trancas</h1>
+              <p id="heroSlideSubtitle">Cabañas, tinajas, nieve, termas y naturaleza en la cordillera de Ñuble.</p>
+              <div class="hero-slide-actions">
+                <button id="heroSlideCta" class="btn btn-light" type="button">Ver alojamientos</button>
+                <a href="/publicar.html" class="btn btn-hero-outline">Publicitar aquí</a>
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <button id="heroPrev" class="hero-carousel-control hero-carousel-prev" type="button" aria-label="Promoción anterior">‹</button>
+        <button id="heroNext" class="hero-carousel-control hero-carousel-next" type="button" aria-label="Promoción siguiente">›</button>
+        <div id="heroDots" class="hero-carousel-dots" aria-label="Indicadores del carrusel"></div>
+      </div>
+    </section>
+
+    <section id="buscar" class="container search-lab-section search-v11" aria-label="Buscador turístico">
+      <div class="search-lab-card">
+        <div class="section-heading centered-heading">
+          <span class="eyebrow">Buscador turístico de Ñuble</span>
+          <h2>Encuentra turismo en Ñuble.</h2>
+          <p>Busca por palabra clave, comuna o categoría. Simple, rápido y sin ruido.</p>
+        </div>
+
+        <section class="search-panel search-panel-main" aria-label="Buscador principal">
+          <div class="field field-large">
+            <label for="busqueda">¿Qué buscas?</label>
+            <input type="search" id="busqueda" placeholder="Ej: cabañas, tinaja, Las Trancas, gratis..." autocomplete="off" />
+          </div>
+          <div class="field">
+            <label for="comuna">Comuna</label>
+            <select id="comuna"><option value="">Todas</option></select>
+          </div>
+          <div class="field">
+            <label for="categoria">Categoría</label>
+            <select id="categoria"><option value="">Todas</option></select>
+          </div>
+          <button id="buscarBtn" class="btn btn-primary btn-search" type="button">Buscar</button>
+        </section>
+
+        <div class="search-tools-row compact-tools-row">
+          <button id="limpiarFiltros" class="btn btn-ghost" type="button">Limpiar búsqueda</button>
+        </div>
+      </div>
+    </section>
+
+    <section class="container category-strip" aria-label="Categorías rápidas">
+      <button class="category-pill active" data-quick-filter="">Todos</button>
+      <button class="category-pill" data-quick-filter="Alojamiento">🏡 Alojamientos</button>
+      <button class="category-pill" data-quick-filter="Panoramas">🎉 Panoramas</button>
+      <button class="category-pill" data-quick-filter="Gastronomía">🍽️ Gastronomía</button>
+      <button class="category-pill" data-quick-filter="Experiencias">🥾 Experiencias</button>
+      <button class="category-pill" data-quick-text="gratis">💸 Gratis</button>
+      <button class="category-pill" data-quick-text="tinaja">♨️ Tinaja</button>
+    </section>
+
+    <section id="explorar" class="container search-section explore-v11">
+      <div class="section-heading split-heading">
+        <div>
+          <span class="eyebrow">Explora Ñuble</span>
+          <h2>Alojamientos, panoramas y experiencias.</h2>
+          <p>Resultados generales del buscador. Esta sección es funcional y no mezcla publicidad.</p>
+        </div>
+      </div>
+
+      <div class="results-topline">
+        <p id="contadorResultados">Cargando publicaciones...</p>
+        <p class="microcopy">Cada card usa la primera imagen disponible en el JSON.</p>
+      </div>
+
+      <div id="resultados" class="cards-grid marketplace-grid"></div>
+    </section>
+
+    <section id="destacados" class="featured-band-v11">
+      <div class="container featured-listings-section">
+        <div class="section-heading split-heading">
+          <div>
+            <span class="eyebrow">Vitrina destacada</span>
+            <h2>Destacados de Turistuble</h2>
+            <p>Espacio premium separado para negocios, eventos o comunas que quieras promocionar.</p>
+          </div>
+          <a href="/publicar.html" class="btn btn-secondary">Publicitar destacado</a>
+        </div>
+        <div id="destacadosGrid" class="cards-grid marketplace-grid featured-grid"></div>
+      </div>
+    </section>
+
+    <section id="eventos" class="container feature-section events-v11">
+      <div class="feature-card soft-card">
+        <div>
+          <span class="eyebrow">Comunidad</span>
+          <h2>Eventos abiertos y gratuitos también tienen espacio.</h2>
+          <p>Fiestas costumbristas, ferias, actividades familiares y panoramas comunitarios pueden publicarse sin costo para ayudar a mover el turismo local.</p>
+        </div>
+        <a href="/publicar.html?tipo=evento" class="btn btn-secondary">Publicar evento gratis</a>
+      </div>
+    </section>
+
+    <section class="container business-cta-section">
+      <div class="business-cta">
+        <div>
+          <span class="eyebrow">Para emprendedores</span>
+          <h2>¿Tienes una cabaña, hotel, restaurant o negocio turístico?</h2>
+          <p>Publica tu ficha en Turistuble desde $5.990 mensual con WhatsApp, redes, ubicación y descripción optimizada.</p>
+        </div>
+        <a href="/publicar.html" class="btn btn-primary">Ver planes y publicar</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer site-footer-nav">
+    <nav class="nav container footer-nav" aria-label="Navegación inferior">
+      <a href="/index.html" class="brand" aria-label="Inicio Turistuble">
+        <span class="brand-mark">T</span>
+        <span>Turistuble</span>
+      </a>
+      <div class="nav-actions footer-actions">
+        <a href="#buscar">Buscar</a>
+        <a href="#explorar">Explorar</a>
+        <a href="#destacados">Destacados</a>
+        <a href="#eventos">Eventos gratis</a>
+        <a href="/publicar.html">Planes</a>
+        <a href="/publicar.html" class="btn btn-primary">Publicar negocio</a>
+      </div>
+    </nav>
+  </footer>
+
+  <script src="/assets/js/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 560">
+  <rect width="900" height="560" fill="#fff8eb"/>
+  <path d="M0 395c120-85 225-70 320 0s210 80 330 0 180-70 250-20v185H0z" fill="#0f7b5f" opacity=".25"/>
+  <circle cx="430" cy="235" r="130" fill="#f0a929" opacity=".9"/>
+  <path d="M300 235h260v180H300z" fill="#0f7b5f"/><path d="M300 235l130-90 130 90z" fill="#075b45"/>
+  <circle cx="340" cy="120" r="20" fill="#0f7b5f"/><circle cx="520" cy="105" r="16" fill="#0f7b5f"/><circle cx="600" cy="165" r="22" fill="#0f7b5f"/>
+  <text x="65" y="92" font-family="Arial" font-size="42" font-weight="700" fill="#1d2a24">Eventos gratuitos</text>
+</svg>

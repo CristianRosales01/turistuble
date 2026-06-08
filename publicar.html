@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Planes y publicación | Turistuble</title>
+  <meta name="description" content="Publica tu negocio turístico o evento gratuito en Turistuble, buscador turístico de Ñuble." />
+  <link rel="stylesheet" href="/assets/css/styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <nav class="nav container">
+      <a href="/index.html" class="brand">
+        <span class="brand-mark">T</span>
+        <span>Turistuble</span>
+      </a>
+      <button class="menu-toggle" id="menuToggle" type="button" aria-label="Abrir menú">☰</button>
+      <div class="nav-actions" id="navActions">
+        <a href="/index.html#explorar">Explorar</a>
+        <a href="#planes">Planes</a>
+        <a href="#formulario">Formulario</a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="publish-hero">
+      <div class="container publish-hero-grid">
+        <div>
+          <span class="eyebrow">Publicar en Turistuble</span>
+          <h1>Tu vitrina turística para aparecer en Ñuble.</h1>
+          <p>Aparece con ficha pública, fotos, ubicación, redes sociales, botón directo a WhatsApp y textos listos para difusión.</p>
+          <div class="hero-actions">
+            <a href="#planes" class="btn btn-primary">Ver planes</a>
+            <a href="#formulario" class="btn btn-secondary">Completar formulario</a>
+          </div>
+        </div>
+        <div class="publish-benefits">
+          <div><strong>Ficha visual</strong><span>Fotos, descripción, servicios y precio referencial.</span></div>
+          <div><strong>Contacto directo</strong><span>WhatsApp, Instagram, Facebook y Google Maps.</span></div>
+          <div><strong>Contenido con IA</strong><span>Textos optimizados para presentar mejor tu oferta.</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="planes" class="plans-section page-plans">
+      <div class="container">
+        <div class="section-heading center">
+          <span class="eyebrow">Planes MVP</span>
+          <h2>Elige cómo quieres aparecer</h2>
+          <p>Simple para validar: eventos gratuitos sin costo y negocios turísticos con precio fundador.</p>
+        </div>
+        <div class="plans-grid three-plans">
+          <article class="plan-card">
+            <span class="badge-soft static-badge">Comunidad</span>
+            <h3>Plan Comunidad</h3>
+            <p class="price">$0</p>
+            <p>Para fiestas, ferias y eventos abiertos gratuitos.</p>
+            <ul>
+              <li>Publicación del evento</li>
+              <li>Fecha, horario y ubicación</li>
+              <li>Aparición en el buscador</li>
+              <li>Difusión opcional en redes</li>
+            </ul>
+            <a href="#formulario" class="btn btn-secondary" data-set-type="Evento">Publicar evento</a>
+          </article>
+          <article class="plan-card featured-plan">
+            <span class="badge static-badge">Precio fundador</span>
+            <h3>Plan Emprendedor</h3>
+            <p class="price">$5.990 <small>/ mes</small></p>
+            <p>Para cabañas, hoteles, restaurantes, comercio y servicios turísticos.</p>
+            <ul>
+              <li>Ficha del negocio</li>
+              <li>Botón de WhatsApp</li>
+              <li>Instagram y Facebook</li>
+              <li>Ubicación Google Maps</li>
+              <li>Descripción optimizada</li>
+            </ul>
+            <a href="#formulario" class="btn btn-primary" data-set-type="Negocio">Quiero aparecer</a>
+          </article>
+          <article class="plan-card muted-plan">
+            <span class="badge-soft static-badge">Futuro</span>
+            <h3>Plan Destacado</h3>
+            <p class="price">Próximamente</p>
+            <p>Para negocios que quieran mayor visibilidad.</p>
+            <ul>
+              <li>Posición destacada</li>
+              <li>Mayor presencia en portada</li>
+              <li>Más publicaciones mensuales</li>
+              <li>Campañas por temporada</li>
+            </ul>
+            <button class="btn btn-ghost" type="button" disabled>Etapa 2</button>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="formulario" class="container form-layout">
+      <div class="section-heading">
+        <span class="eyebrow">Solicitud MVP</span>
+        <h2>Completa los datos para publicar</h2>
+        <p>Este formulario no guarda en base de datos. Genera un mensaje listo para enviar por WhatsApp; luego se revisa y se agrega manualmente al JSON.</p>
+      </div>
+
+      <section class="form-card">
+        <form id="formPublicar">
+          <div class="form-grid">
+            <div class="field">
+              <label for="tipoPublicacion">Tipo de publicación</label>
+              <select id="tipoPublicacion" required>
+                <option value="Negocio">Negocio turístico</option>
+                <option value="Evento">Evento gratuito</option>
+              </select>
+            </div>
+            <div class="field">
+              <label for="nombre">Nombre</label>
+              <input id="nombre" type="text" placeholder="Ej: Cabañas Vista Ñuble" required />
+            </div>
+            <div class="field">
+              <label for="categoria">Categoría</label>
+              <input id="categoria" type="text" placeholder="Alojamiento, Gastronomía, Panoramas..." required />
+            </div>
+            <div class="field">
+              <label for="subcategoria">Subcategoría</label>
+              <input id="subcategoria" type="text" placeholder="Cabañas, Hotel, Restaurante, Feria..." />
+            </div>
+            <div class="field">
+              <label for="provincia">Provincia</label>
+              <select id="provincia" required>
+                <option value="Diguillín">Diguillín</option>
+                <option value="Punilla">Punilla</option>
+                <option value="Itata">Itata</option>
+              </select>
+            </div>
+            <div class="field">
+              <label for="comuna">Comuna</label>
+              <input id="comuna" type="text" placeholder="Ej: Pinto" required />
+            </div>
+            <div class="field">
+              <label for="sector">Sector</label>
+              <input id="sector" type="text" placeholder="Ej: Las Trancas" />
+            </div>
+            <div class="field">
+              <label for="direccion">Dirección</label>
+              <input id="direccion" type="text" placeholder="Dirección o ubicación aproximada" />
+            </div>
+            <div class="field field-full">
+              <label for="referencia">Referencia</label>
+              <input id="referencia" type="text" placeholder="Ej: a 5 minutos de la plaza, camino a Nevados..." />
+            </div>
+            <div class="field field-full">
+              <label for="maps">Ubicación Google Maps</label>
+              <input id="maps" type="url" placeholder="https://www.google.com/maps/..." />
+            </div>
+            <div class="field">
+              <label for="whatsapp">WhatsApp</label>
+              <input id="whatsapp" type="text" placeholder="56912345678" />
+            </div>
+            <div class="field">
+              <label for="email">Email</label>
+              <input id="email" type="email" placeholder="contacto@negocio.cl" />
+            </div>
+            <div class="field">
+              <label for="instagram">Instagram</label>
+              <input id="instagram" type="url" placeholder="https://instagram.com/..." />
+            </div>
+            <div class="field">
+              <label for="facebook">Facebook</label>
+              <input id="facebook" type="url" placeholder="https://facebook.com/..." />
+            </div>
+            <div class="field field-full">
+              <label for="descripcion">Descripción</label>
+              <textarea id="descripcion" rows="5" placeholder="Cuéntanos qué ofrece, servicios, ambiente, precios referenciales, horarios, etc."></textarea>
+            </div>
+          </div>
+          <div class="form-actions">
+            <button type="submit" class="btn btn-primary">Enviar por WhatsApp</button>
+            <button type="button" id="copiarMensaje" class="btn btn-secondary">Copiar mensaje</button>
+          </div>
+        </form>
+        <div class="preview-box">
+          <h2>Mensaje generado</h2>
+          <pre id="previewMensaje">Completa el formulario para generar el mensaje.</pre>
+        </div>
+      </section>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <strong>Turistuble</strong>
+      <a href="/index.html">Volver al inicio</a>
+    </div>
+  </footer>
+
+  <script src="/assets/js/publicar.js"></script>
+</body>
+</html>

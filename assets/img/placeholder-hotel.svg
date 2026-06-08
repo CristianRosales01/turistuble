@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 560">
+  <rect width="900" height="560" fill="#eef5f1"/>
+  <rect x="190" y="130" width="520" height="360" rx="28" fill="#0f7b5f"/>
+  <rect x="255" y="195" width="85" height="75" rx="12" fill="#fff8eb"/><rect x="407" y="195" width="85" height="75" rx="12" fill="#fff8eb"/><rect x="560" y="195" width="85" height="75" rx="12" fill="#fff8eb"/>
+  <rect x="255" y="310" width="85" height="75" rx="12" fill="#fff8eb"/><rect x="407" y="310" width="85" height="75" rx="12" fill="#fff8eb"/><rect x="560" y="310" width="85" height="75" rx="12" fill="#fff8eb"/>
+  <rect x="395" y="410" width="110" height="80" rx="12" fill="#f0a929"/>
+  <text x="70" y="90" font-family="Arial" font-size="42" font-weight="700" fill="#1d2a24">Hoteles y estadías</text>
+</svg>

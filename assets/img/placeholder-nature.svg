@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 560">
+  <defs><linearGradient id="sky" x1="0" x2="0" y1="0" y2="1"><stop stop-color="#dff3ec"/><stop offset="1" stop-color="#fff8eb"/></linearGradient></defs>
+  <rect width="900" height="560" fill="url(#sky)"/>
+  <circle cx="720" cy="115" r="72" fill="#f0a929"/>
+  <path d="M0 360L180 185l150 150 95-125 180 190 95-115 200 170v105H0z" fill="#0f7b5f" opacity=".42"/>
+  <path d="M0 450c120-50 210-40 335 0s250 48 565-30v140H0z" fill="#0f7b5f"/>
+  <text x="60" y="95" font-family="Arial" font-size="42" font-weight="700" fill="#1d2a24">Naturaleza y aventura</text>
+</svg>
