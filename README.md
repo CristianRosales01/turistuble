@@ -31,7 +31,7 @@ Abrir: http://localhost:3000
 - Email: turistuble@gmail.com
 
 
-## SEO agregado en v17
+## SEO agregado en v17 WhatsApp
 
 - Metadatos SEO por página: title, description, keywords, robots, canonical, Open Graph y Twitter Cards.
 - Metas geográficas para Región de Ñuble, Chile.
