@@ -28,51 +28,25 @@ Cómo ejecutar local (opciones)
 - Usar un servidor estático simple (recomendado):
 
 ```bash
-# Opción 1: con Python 3 (puerto 8000)
-python3 -m http.server 8000
+Turistuble
 
-# Opción 2: con Node + http-server (si tienes npm)
-npx http-server -p 3000
+Turistuble es la vitrina turística digital de la Región de Ñuble, diseñada para conectar visitantes con emprendedores locales.
 
-# Opción 3: Live Server extension en VS Code
-# Instala Live Server y elige "Open with Live Server"
-```
+Qué ofrece
+- Buscador de alojamientos, gastronomía, panoramas, experiencias y eventos comunitarios.
+- Fichas públicas para cada negocio o evento: fotos, descripción, servicios, ubicación y contacto directo.
 
-Usando los scripts del repositorio (requiere `node`/`npm`):
+Planes disponibles
+- Comunidad: publicación gratuita para eventos abiertos y actividades comunitarias.
+- Emprendedor: ficha comercial con contacto directo y presencia en el buscador.
+- Destacado: posicionamiento premium dentro de la vitrina para mayor visibilidad.
 
-```bash
-# Ejecutar con http-server (desde el repo)
-npm run start
-
-# Abrir en modo live (live-server)
-npm run dev
-```
-
-Luego abre en el navegador:
-
-- Python: http://localhost:8000
-- http-server: http://localhost:3000
-
-Notas de desarrollo
-- Los datos mostrados en la web provienen de `assets/data/negocios.json` y `assets/data/hero-slides.json`.
-- Reemplaza las rutas absolutas a `https://turistuble.cl` en los HTML y en `assets/js/negocio.js` si vas a desplegar en otro dominio.
-- Si abres los archivos directamente como `file://` algunas llamadas `fetch()` fallarán; por eso se recomienda usar un servidor local.
-
-Estructura y archivos clave
-- Ver `FILES.md` para un desglose completo de archivos y responsabilidades.
-
-Cambios históricos y contacto
-- Información de versiones y contactos se conserva en el historial del repo.
+Cómo aparecer
+- Completa la solicitud en la sección de publicación del sitio; te ayudamos a optimizar el texto y las imágenes para mejorar la presentación.
 
 Contacto
 - WhatsApp: +56977167740
 - Email: turistuble@gmail.com
 
-Si quieres, puedo:
-- Ejecutar pruebas básicas de carga de los JSON.
-- Crear un `package.json` con un script `start` que use `http-server`.
-- Añadir instrucciones Docker o GitHub Pages para despliegue.
+¿Necesitas ayuda con los textos de tu ficha o quieres ajustar precios y beneficios? Escríbeme y lo coordinamos.
 
-Despliegue
-
-Actualmente no hay configuraciones de despliegue incluidas en el repositorio. Si quieres, puedo añadir opciones (Docker, GitHub Actions, GitHub Pages) cuando lo solicites.

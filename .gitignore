@@ -8,3 +8,6 @@ dist/
 npm-debug.log*
 yarn-error.log*
 *.log
+
+# Ignorar archivo de mapa de archivos creado por análisis
+FILES.md
