@@ -75,21 +75,4 @@ Si quieres, puedo:
 
 Despliegue
 
-GitHub Pages
-- Flujo recomendado: el workflow `/.github/workflows/deploy_pages.yml` incluido publica el contenido del repositorio a GitHub Pages cada vez que haces push a la rama `main`. La acción usa el token `GITHUB_TOKEN` provisto por Actions. Para habilitar Pages en el repositorio: ve a Settings → Pages y selecciona la rama `gh-pages` o la opción que prefieras (la acción crea/actualiza `gh-pages`).
-
-Docker
-- `Dockerfile` incluido sirve el sitio con `nginx`. Comandos para construir y ejecutar:
-
-```bash
-# Construir imagen (en el directorio del repo)
-docker build -t turistuble:latest .
-
-# Ejecutar contenedor (mapea puerto 8080 a 80 dentro del contenedor)
-docker run --rm -p 8080:80 turistuble:latest
-```
-
-Luego abre: http://localhost:8080
-
-Notas
-- El workflow de Actions publica el contenido actual del repositorio. Si prefieres compilar o usar una carpeta `dist/`, actualiza `publish_dir` en `/.github/workflows/deploy_pages.yml`.
+Actualmente no hay configuraciones de despliegue incluidas en el repositorio. Si quieres, puedo añadir opciones (Docker, GitHub Actions, GitHub Pages) cuando lo solicites.
