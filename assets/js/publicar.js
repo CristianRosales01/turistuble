@@ -57,8 +57,8 @@ ${valor('descripcion')}
 
 Plan solicitado: ${obtenerPlanSolicitado()}
 
-Contacto Turistuble:
-WhatsApp: +56 9 7716 7740
+  Contacto Turistuble:
+WhatsApp: +56977167740
 Email: ${correoTuristuble}`;
 }
 

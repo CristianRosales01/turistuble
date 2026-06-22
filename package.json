@@ -1,0 +1,12 @@
+{
+  "name": "turistuble",
+  "version": "1.0.0",
+  "description": "Sitio estático - Buscador turístico Región de Ñuble",
+  "main": "index.html",
+  "scripts": {
+    "start": "npx http-server -p 3000",
+    "dev": "npx live-server --port=3000 --open=./index.html"
+  },
+  "author": "",
+  "license": "MIT"
+}
