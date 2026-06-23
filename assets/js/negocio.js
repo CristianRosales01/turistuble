@@ -221,12 +221,9 @@ function crearDetalle(item) {
         </div>
         <div class="service-list">${servicios}</div>
         <div class="info-grid">
-          <div class="info-box"><strong>Precio</strong><span>${item.precio || 'Consultar'}</span></div>
           <div class="info-box"><strong>Sector</strong><span>${item.sector || 'No informado'}</span></div>
           <div class="info-box"><strong>Dirección</strong><span>${item.direccion || 'No informada'}</span></div>
-          <div class="info-box"><strong>Referencia</strong><span>${item.referencia || 'No informada'}</span></div>
           ${fechasEvento}
-          
         </div>
       </div>
     </div>
