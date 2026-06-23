@@ -517,4 +517,60 @@
       "panoramas"
     ]
   }
+  ,
+  {
+    "id": 9,
+    "nombre": "Panoramas Vacaciones Invierno Portezuelo 2026",
+    "slug": "panoramas-vacaciones-invierno-portezuelo-2026",
+    "tipo": "Evento",
+    "categoria": "Panoramas",
+    "subcategoria": "Temporada / Programación",
+    "region": "Ñuble",
+    "provincia": "Diguillín",
+    "comuna": "Portezuelo",
+    "sector": "Centro / Espacios Públicos",
+    "direccion": "Plaza y espacios municipales de Portezuelo",
+    "referencia": "Programación de actividades durante las vacaciones de invierno",
+    "ubicacionGoogleMaps": "",
+    "descripcion": "Actividades y panoramas durante las vacaciones de invierno en Portezuelo (actividades familiares, talleres y ferias).",
+    "descripcionLarga": "Programación de actividades para niños y familias en Portezuelo durante las vacaciones de invierno 2026, incluyendo talleres, juegos y ferias locales.",
+    "precio": "Mayormente gratuitas",
+    "destacado": false,
+    "plan": "Comunidad",
+    "estado": "Publicado",
+    "whatsapp": "",
+    "email": "",
+    "facebook": "",
+    "instagram": "",
+    "sitioWeb": "",
+    "fechaInicio": "2026-06-23",
+    "fechaFin": "2026-07-02",
+    "imagenes": [
+      "assets/img/portezuelo/panoramasvacacionesinvierno2026/IMG_001.jpeg"
+    ],
+    "imagenesInfo": [
+      {
+        "src": "assets/img/portezuelo/panoramasvacacionesinvierno2026/IMG_001.jpeg",
+        "alt": "Panoramas Vacaciones Invierno Portezuelo - IMG_001",
+        "caption": "",
+        "credit": "",
+        "license": "",
+        "sizeBytes": 250091,
+        "width": 1440,
+        "height": 1440
+      }
+    ],
+    "horario": [],
+    "servicios": [
+      "Talleres",
+      "Actividades familiares",
+      "Feria local"
+    ],
+    "tags": [
+      "vacaciones",
+      "invierno",
+      "portezuelo",
+      "panoramas"
+    ]
+  }
 ]
