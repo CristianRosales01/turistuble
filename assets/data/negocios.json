@@ -129,6 +129,64 @@
   },
   {
     "id": 3,
+    "nombre": "Fiesta de la Longaniza 2026",
+    "slug": "fiesta-de-la-longaniza-2026",
+    "tipo": "Evento",
+    "categoria": "Panoramas",
+    "subcategoria": "Festival / Feria",
+    "region": "Ñuble",
+    "provincia": "Diguillín",
+    "comuna": "Chillán",
+    "sector": "Plaza de Armas y calles Arauco, Constitución, 18 de Septiembre, Av. Libertad y Paseo Arauco 1",
+    "direccion": "Plaza de Armas de Chillán y calles Arauco, Constitución, 18 de Septiembre, Av. Libertad y Paseo Arauco 1",
+    "referencia": "Evento gastronómico en el centro de Chillán",
+    "ubicacionGoogleMaps": "https://www.google.com/maps/search/?api=1&query=Plaza+de+Armas+Chillán+Ñuble",
+    "descripcion": "Fiesta de la Longaniza: feria gastronómica en el centro de Chillán.",
+    "descripcionLarga": "Festival con stands de longaniza y gastronomía local, música en vivo y actividades familiares. Horario: 11:00 a 23:00 hrs, viernes a domingo.",
+    "precio": "Varía (puestos con costo)",
+    "destacado": false,
+    "plan": "Comunidad",
+    "estado": "Publicado",
+    "whatsapp": "",
+    "email": "",
+    "facebook": "",
+    "instagram": "",
+    "sitioWeb": "",
+    "fechaInicio": "2026-08-21",
+    "fechaFin": "2026-08-23",
+    "horaInicio": "11:00",
+    "horaFin": "23:00",
+    "imagenes": [
+      "assets/data/img/fiestalonzaniza2026/fiestalonganiza2026.png"
+    ],
+    "imagenesInfo": [
+      {
+        "src": "assets/data/img/fiestalonzaniza2026/fiestalonganiza2026.png",
+        "alt": "Afiche Fiesta de la Longaniza 2026 - Chillán",
+        "caption": "Fiesta de la Longaniza — 21 al 23 de agosto de 2026, 11:00–23:00 hrs.",
+        "credit": "Organización local",
+        "license": ""
+      }
+    ],
+    "horario": [
+      { "dia": "2026-08-21 - 2026-08-23", "evento": "Fiesta de la Longaniza (feria gastronómica, música y actividades familiares)", "hora": "11:00-23:00", "lugar": "Plaza de Armas de Chillán y calles Arauco, Constitución, 18 de Septiembre, Av. Libertad y Paseo Arauco 1" }
+    ],
+    "servicios": [
+      "Gastronomía",
+      "Música en vivo",
+      "Actividades familiares",
+      "Feria gastronómica"
+    ],
+    "tags": [
+      "longaniza",
+      "fiesta",
+      "chillán",
+      "gastronomía",
+      "feria"
+    ]
+  },
+  {
+    "id": 4,
     "nombre": "Ejemplo Cabañas Valle Las Trancas",
     "slug": "cabanas-valle-las-trancas",
     "tipo": "Negocio",
@@ -172,7 +230,7 @@
     ]
   },
   {
-    "id": 4,
+    "id": 5,
     "nombre": "Ejemplo Hotel Centro Chillán",
     "slug": "hotel-centro-chillan",
     "tipo": "Negocio",
@@ -215,7 +273,7 @@
     ]
   },
   {
-    "id": 5,
+    "id": 6,
     "nombre": "Ejemplo Fiesta Costumbrista de Ñuble",
     "slug": "fiesta-costumbrista-nuble",
     "tipo": "Evento",
@@ -262,7 +320,7 @@
     ]
   },
   {
-    "id": 6,
+    "id": 7,
     "nombre": "Ejemplo Sabores de Quillón",
     "slug": "sabores-de-quillon",
     "tipo": "Negocio",
