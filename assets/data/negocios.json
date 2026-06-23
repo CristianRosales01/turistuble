@@ -157,11 +157,11 @@
     "horaInicio": "11:00",
     "horaFin": "23:00",
     "imagenes": [
-      "assets/data/img/fiestalonzaniza2026/fiestalonganiza2026.png"
+      "assets/img/fiestalonganiza2026/fiestalonganiza2026.png"
     ],
     "imagenesInfo": [
       {
-        "src": "assets/data/img/fiestalonzaniza2026/fiestalonganiza2026.png",
+        "src": "assets/img/fiestalonganiza2026/fiestalonganiza2026.png",
         "alt": "Afiche Fiesta de la Longaniza 2026 - Chillán",
         "caption": "Fiesta de la Longaniza — 21 al 23 de agosto de 2026, 11:00–23:00 hrs.",
         "credit": "Organización local",
