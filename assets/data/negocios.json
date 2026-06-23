@@ -1,5 +1,5 @@
 [
-    {
+  {
     "id": 1,
     "nombre": "Campeonato Nacional de Cueca Juvenil (Ránquil 2026)",
     "slug": "campeonato-nacional-cueca-juvenil-ranquil-2026",
@@ -62,8 +62,7 @@
       "cultura",
       "evento"
     ]
-  }
-  ,
+  },
   {
     "id": 2,
     "nombre": "Vacaciones de Invierno Ránquil 2026",
@@ -187,179 +186,279 @@
   },
   {
     "id": 4,
-    "nombre": "Ejemplo Cabañas Valle Las Trancas",
-    "slug": "cabanas-valle-las-trancas",
-    "tipo": "Negocio",
-    "categoria": "Alojamiento",
-    "subcategoria": "Cabañas",
-    "region": "Ñuble",
-    "provincia": "Diguillín",
-    "comuna": "Pinto",
-    "sector": "Las Trancas",
-    "direccion": "Camino a Nevados de Chillán, Pinto",
-    "referencia": "A minutos del acceso a Nevados de Chillán",
-    "ubicacionGoogleMaps": "https://www.google.com/maps/search/?api=1&query=Las+Trancas+Pinto+Ñuble",
-    "descripcion": "Cabañas equipadas para disfrutar la montaña, la nieve y la naturaleza en el corazón turístico de Ñuble.",
-    "descripcionLarga": "Un espacio ideal para escapadas familiares, viajes en pareja y fines de semana de descanso cerca de la cordillera. Cuenta con servicios pensados para una estadía cómoda y contacto directo con el entorno natural de Las Trancas.",
-    "precio": "Desde $65.000",
-    "destacado": true,
-    "plan": "Emprendedor",
-    "estado": "Publicado",
-    "whatsapp": "+56977167740",
-    "email": "contacto@demo.cl",
-    "facebook": "https://www.facebook.com/",
-    "instagram": "https://www.instagram.com/",
-    "sitioWeb": "",
-    "imagenes": [
-      "assets/img/placeholder-cabana.svg",
-      "assets/img/placeholder-nature.svg",
-      "assets/img/placeholder-hotel.svg"
-    ],
-    "servicios": [
-      "Tinaja",
-      "Estacionamiento",
-      "Wifi",
-      "Parrilla",
-      "Vista a la montaña"
-    ],
-    "tags": [
-      "montaña",
-      "nieve",
-      "familia",
-      "descanso"
-    ]
-  },
-  {
-    "id": 5,
-    "nombre": "Ejemplo Hotel Centro Chillán",
-    "slug": "hotel-centro-chillan",
-    "tipo": "Negocio",
-    "categoria": "Alojamiento",
-    "subcategoria": "Hotel",
-    "region": "Ñuble",
-    "provincia": "Diguillín",
-    "comuna": "Chillán",
-    "sector": "Centro",
-    "direccion": "Centro de Chillán",
-    "referencia": "Cercano a Plaza de Armas y comercio local",
-    "ubicacionGoogleMaps": "https://www.google.com/maps/search/?api=1&query=Hotel+Centro+Chillán+Ñuble",
-    "descripcion": "Hotel urbano para quienes visitan Chillán por turismo, negocios o escapadas de fin de semana.",
-    "descripcionLarga": "Ubicación práctica para recorrer el centro de Chillán, visitar restaurantes, museos, comercio y conectar hacia otros destinos de la región de Ñuble.",
-    "precio": "Desde $48.000",
-    "destacado": false,
-    "plan": "Emprendedor",
-    "estado": "Publicado",
-    "whatsapp": "+56977167740",
-    "email": "reservas@demo.cl",
-    "facebook": "",
-    "instagram": "https://www.instagram.com/",
-    "sitioWeb": "",
-    "imagenes": [
-      "assets/img/placeholder-hotel.svg",
-      "assets/img/placeholder-food.svg",
-      "assets/img/placeholder-nature.svg"
-    ],
-    "servicios": [
-      "Desayuno",
-      "Wifi",
-      "Recepción",
-      "Estacionamiento"
-    ],
-    "tags": [
-      "urbano",
-      "centro",
-      "hotel",
-      "chillán"
-    ]
-  },
-  {
-    "id": 6,
-    "nombre": "Ejemplo Fiesta Costumbrista de Ñuble",
-    "slug": "fiesta-costumbrista-nuble",
+    "nombre": "Panoramas Vacaciones Invierno Bulnes 2026",
+    "slug": "panoramas-vacaciones-invierno-bulnes-2026",
     "tipo": "Evento",
     "categoria": "Panoramas",
-    "subcategoria": "Evento gratuito",
+    "subcategoria": "Temporada / Programación",
     "region": "Ñuble",
     "provincia": "Diguillín",
-    "comuna": "Chillán",
-    "sector": "Centro",
-    "direccion": "Plaza de Armas de Chillán",
-    "referencia": "Frente a la Catedral de Chillán",
-    "ubicacionGoogleMaps": "https://www.google.com/maps/search/?api=1&query=Plaza+de+Armas+Chillán+Ñuble",
-    "descripcion": "Evento abierto a la comunidad con música, gastronomía local, artesanía y emprendimientos regionales.",
-    "descripcionLarga": "Panorama gratuito para disfrutar en familia, conocer sabores locales y apoyar a emprendedores de la región.",
-    "precio": "Gratis",
-    "destacado": true,
+    "comuna": "Bulnes",
+    "sector": "Centro / Espacios Públicos",
+    "direccion": "Plaza y espacios municipales de Bulnes",
+    "referencia": "Programación de actividades durante las vacaciones de invierno",
+    "ubicacionGoogleMaps": "",
+    "descripcion": "Actividades y panoramas durante las vacaciones de invierno en Bulnes (actividades familiares, talleres y ferias).",
+    "descripcionLarga": "Programación de actividades para niños y familias en Bulnes durante las vacaciones de invierno 2026, incluyendo talleres, juegos y ferias locales.",
+    "precio": "Mayormente gratuitas",
+    "destacado": false,
     "plan": "Comunidad",
     "estado": "Publicado",
-    "whatsapp": "+56977167740",
+    "whatsapp": "",
     "email": "",
-    "facebook": "https://www.facebook.com/",
+    "facebook": "",
     "instagram": "",
     "sitioWeb": "",
-    "fechaInicio": "2026-07-12",
-    "fechaFin": "2026-07-12",
-    "horaInicio": "12:00",
-    "horaFin": "21:00",
+    "fechaInicio": "2026-06-20",
+    "fechaFin": "2026-07-03",
     "imagenes": [
-      "assets/img/placeholder-evento.svg",
-      "assets/img/placeholder-food.svg",
-      "assets/img/placeholder-nature.svg"
+      "assets/img/bulnes/panoramasvacacionesinvierno2026/IMG_7690.jpg",
+      "assets/img/bulnes/panoramasvacacionesinvierno2026/IMG_7691.jpg"
     ],
+    "imagenesInfo": [
+      {
+        "src": "assets/img/bulnes/panoramasvacacionesinvierno2026/IMG_7690.jpg",
+        "alt": "Panorama Vacaciones Invierno Bulnes - IMG_7690",
+        "caption": "",
+        "credit": "",
+        "license": "",
+        "sizeBytes": 770815,
+        "width": 828,
+        "height": 1030
+      },
+      {
+        "src": "assets/img/bulnes/panoramasvacacionesinvierno2026/IMG_7691.jpg",
+        "alt": "Panorama Vacaciones Invierno Bulnes - IMG_7691",
+        "caption": "",
+        "credit": "",
+        "license": "",
+        "sizeBytes": 678803,
+        "width": 828,
+        "height": 1026
+      }
+    ],
+    "horario": [],
     "servicios": [
-      "Entrada liberada",
-      "Gastronomía",
-      "Música en vivo",
-      "Artesanía"
+      "Talleres",
+      "Actividades familiares",
+      "Feria local"
     ],
     "tags": [
-      "gratis",
-      "familia",
-      "cultura",
-      "evento"
+      "vacaciones",
+      "invierno",
+      "bulnes",
+      "panoramas"
     ]
-  },
+  }
+    ,
+    {
+      "id": 5,
+      "nombre": "Panoramas Vacaciones Invierno Quillón 2026",
+      "slug": "panoramas-vacaciones-invierno-quillon-2026",
+      "tipo": "Evento",
+      "categoria": "Panoramas",
+      "subcategoria": "Temporada / Programación",
+      "region": "Ñuble",
+      "provincia": "Diguillín",
+      "comuna": "Quillón",
+      "sector": "Centro / Espacios Públicos",
+      "direccion": "Plaza y espacios municipales de Quillón",
+      "referencia": "Programación de actividades durante las vacaciones de invierno",
+      "ubicacionGoogleMaps": "",
+      "descripcion": "Actividades y panoramas durante las vacaciones de invierno en Quillón (actividades familiares, talleres y ferias).",
+      "descripcionLarga": "Programación de actividades para niños y familias en Quillón durante las vacaciones de invierno 2026, incluyendo talleres, juegos y ferias locales.",
+      "precio": "Mayormente gratuitas",
+      "destacado": false,
+      "plan": "Comunidad",
+      "estado": "Publicado",
+      "whatsapp": "",
+      "email": "",
+      "facebook": "",
+      "instagram": "",
+      "sitioWeb": "",
+      "fechaInicio": "2026-06-20",
+      "fechaFin": "2026-07-03",
+      "imagenes": [
+        "assets/img/quillon/panoramasvacacionesinvierno2026/IMG_7692.jpg",
+        "assets/img/quillon/panoramasvacacionesinvierno2026/IMG_7693.jpg",
+        "assets/img/quillon/panoramasvacacionesinvierno2026/IMG_7694.jpg",
+        "assets/img/quillon/panoramasvacacionesinvierno2026/IMG_7695.jpg"
+      ],
+      "imagenesInfo": [
+        {
+          "src": "assets/img/quillon/panoramasvacacionesinvierno2026/IMG_7692.jpg",
+          "alt": "Panoramas Vacaciones Invierno Quillón - IMG_7692",
+          "caption": "",
+          "credit": "",
+          "license": "",
+          "sizeBytes": 530398,
+          "width": 828,
+          "height": 1102
+        },
+        {
+          "src": "assets/img/quillon/panoramasvacacionesinvierno2026/IMG_7693.jpg",
+          "alt": "Panoramas Vacaciones Invierno Quillón - IMG_7693",
+          "caption": "",
+          "credit": "",
+          "license": "",
+          "sizeBytes": 566656,
+          "width": 828,
+          "height": 1094
+        },
+        {
+          "src": "assets/img/quillon/panoramasvacacionesinvierno2026/IMG_7694.jpg",
+          "alt": "Panoramas Vacaciones Invierno Quillón - IMG_7694",
+          "caption": "",
+          "credit": "",
+          "license": "",
+          "sizeBytes": 559590,
+          "width": 828,
+          "height": 1101
+        },
+        {
+          "src": "assets/img/quillon/panoramasvacacionesinvierno2026/IMG_7695.jpg",
+          "alt": "Panoramas Vacaciones Invierno Quillón - IMG_7695",
+          "caption": "",
+          "credit": "",
+          "license": "",
+          "sizeBytes": 505058,
+          "width": 828,
+          "height": 1100
+        }
+      ],
+      "horario": [],
+      "servicios": [
+        "Talleres",
+        "Actividades familiares",
+        "Feria local"
+      ],
+      "tags": [
+        "vacaciones",
+        "invierno",
+        "quillón",
+        "panoramas"
+      ]
+    },
   {
-    "id": 7,
-    "nombre": "Ejemplo Sabores de Quillón",
-    "slug": "sabores-de-quillon",
-    "tipo": "Negocio",
-    "categoria": "Gastronomía",
-    "subcategoria": "Restaurante",
+    "id": 6,
+    "nombre": "Panoramas Vacaciones Invierno San Fabián 2026",
+    "slug": "panoramas-vacaciones-invierno-sanfabian-2026",
+    "tipo": "Evento",
+    "categoria": "Panoramas",
+    "subcategoria": "Temporada / Programación",
     "region": "Ñuble",
     "provincia": "Diguillín",
-    "comuna": "Quillón",
-    "sector": "Laguna Avendaño",
-    "direccion": "Sector Laguna Avendaño, Quillón",
-    "referencia": "Cercano a la costanera de Laguna Avendaño",
-    "ubicacionGoogleMaps": "https://www.google.com/maps/search/?api=1&query=Laguna+Avendaño+Quillón+Ñuble",
-    "descripcion": "Restaurante familiar con preparaciones caseras, sabores locales y ambiente cercano a la laguna.",
-    "descripcionLarga": "Una alternativa para almorzar o cenar en Quillón después de recorrer la laguna, viñas y panoramas de verano.",
-    "precio": "Desde $9.990",
+    "comuna": "San Fabián",
+    "sector": "Centro / Espacios Públicos",
+    "direccion": "Plaza y espacios municipales de San Fabián",
+    "referencia": "Programación de actividades durante las vacaciones de invierno",
+    "ubicacionGoogleMaps": "",
+    "descripcion": "Actividades y panoramas durante las vacaciones de invierno en San Fabián (actividades familiares, talleres y ferias).",
+    "descripcionLarga": "Programación de actividades para niños y familias en San Fabián durante las vacaciones de invierno 2026, incluyendo talleres, juegos y ferias locales.",
+    "precio": "Mayormente gratuitas",
     "destacado": false,
-    "plan": "Emprendedor",
+    "plan": "Comunidad",
     "estado": "Publicado",
-    "whatsapp": "+56977167740",
+    "whatsapp": "",
     "email": "",
-    "facebook": "https://www.facebook.com/",
-    "instagram": "https://www.instagram.com/",
+    "facebook": "",
+    "instagram": "",
     "sitioWeb": "",
+    "fechaInicio": "2026-06-20",
+    "fechaFin": "2026-07-03",
     "imagenes": [
-      "assets/img/placeholder-food.svg",
-      "assets/img/placeholder-evento.svg",
-      "assets/img/placeholder-nature.svg"
+      "assets/img/sanfabian/panoramasvacacionesinvierno2026/IMG_7697.jpg",
+      "assets/img/sanfabian/panoramasvacacionesinvierno2026/IMG_7698.jpg"
     ],
+    "imagenesInfo": [
+      {
+        "src": "assets/img/sanfabian/panoramasvacacionesinvierno2026/IMG_7697.jpg",
+        "alt": "Panoramas Vacaciones Invierno San Fabián - IMG_7697",
+        "caption": "",
+        "credit": "",
+        "license": "",
+        "sizeBytes": 934206,
+        "width": 828,
+        "height": 1030
+      },
+      {
+        "src": "assets/img/sanfabian/panoramasvacacionesinvierno2026/IMG_7698.jpg",
+        "alt": "Panoramas Vacaciones Invierno San Fabián - IMG_7698",
+        "caption": "",
+        "credit": "",
+        "license": "",
+        "sizeBytes": 796511,
+        "width": 828,
+        "height": 1035
+      }
+    ],
+    "horario": [],
     "servicios": [
-      "Comida casera",
-      "Terraza",
-      "Menú familiar",
-      "Cercano a laguna"
+      "Talleres",
+      "Actividades familiares",
+      "Feria local"
     ],
     "tags": [
-      "restaurante",
-      "quillón",
-      "familia",
-      "laguna"
+      "vacaciones",
+      "invierno",
+      "sanfabian",
+      "panoramas"
+    ]
+  }
+  ,
+  {
+    "id": 7,
+    "nombre": "Panoramas Vacaciones Invierno Coelemu 2026",
+    "slug": "panoramas-vacaciones-invierno-coelemu-2026",
+    "tipo": "Evento",
+    "categoria": "Panoramas",
+    "subcategoria": "Temporada / Programación",
+    "region": "Ñuble",
+    "provincia": "Diguillín",
+    "comuna": "Coelemu",
+    "sector": "Centro / Espacios Públicos",
+    "direccion": "Plaza y espacios municipales de Coelemu",
+    "referencia": "Programación de actividades durante las vacaciones de invierno",
+    "ubicacionGoogleMaps": "",
+    "descripcion": "Actividades y panoramas durante las vacaciones de invierno en Coelemu (actividades familiares, talleres y ferias).",
+    "descripcionLarga": "Programación de actividades para niños y familias en Coelemu durante las vacaciones de invierno 2026, incluyendo talleres, juegos y ferias locales.",
+    "precio": "Mayormente gratuitas",
+    "destacado": false,
+    "plan": "Comunidad",
+    "estado": "Publicado",
+    "whatsapp": "",
+    "email": "",
+    "facebook": "",
+    "instagram": "",
+    "sitioWeb": "",
+    "fechaInicio": "2026-06-20",
+    "fechaFin": "2026-07-03",
+    "imagenes": [
+      "assets/img/coelemu/panoramasvacacionesinvierno2026/IMG_1.jpeg"
+    ],
+    "imagenesInfo": [
+      {
+        "src": "assets/img/coelemu/panoramasvacacionesinvierno2026/IMG_1.jpeg",
+        "alt": "Panoramas Vacaciones Invierno Coelemu - IMG_1",
+        "caption": "",
+        "credit": "",
+        "license": "",
+        "sizeBytes": 294026,
+        "width": 1536,
+        "height": 1024
+      }
+    ],
+    "horario": [],
+    "servicios": [
+      "Talleres",
+      "Actividades familiares",
+      "Feria local"
+    ],
+    "tags": [
+      "vacaciones",
+      "invierno",
+      "coelemu",
+      "panoramas"
     ]
   }
 ]
