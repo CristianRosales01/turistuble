@@ -461,4 +461,60 @@
       "panoramas"
     ]
   }
+  ,
+  {
+    "id": 8,
+    "nombre": "Show Musical Cachureos — Vacaciones de Invierno San Carlos 2026",
+    "slug": "show-musical-cachureos-vacaciones-invierno-sancarlos-2026",
+    "tipo": "Evento",
+    "categoria": "Panoramas",
+    "subcategoria": "Temporada / Programación",
+    "region": "Ñuble",
+    "provincia": "Diguillín",
+    "comuna": "San Carlos",
+    "sector": "Centro / Espacios Públicos",
+    "direccion": "Gimnasio Héctor Aqueveque Aránguiz",
+    "referencia": "Programación de actividades durante las vacaciones de invierno",
+    "ubicacionGoogleMaps": "",
+    "descripcion": "Show musical Cachureos para toda la familia, parte de la programación de Vacaciones de Invierno 2026 en San Carlos.",
+    "descripcionLarga": "Presentación del Show musical Cachureos en el Gimnasio Héctor Aqueveque Aránguiz. Actividad gratuita y familiar, parte de la programación de Vacaciones de Invierno 2026 en San Carlos.",
+    "precio": "Gratuito",
+    "destacado": false,
+    "plan": "Comunidad",
+    "estado": "Publicado",
+    "whatsapp": "",
+    "email": "",
+    "facebook": "",
+    "instagram": "",
+    "sitioWeb": "",
+    "fechaInicio": "2026-06-27",
+    "fechaFin": "2026-06-27",
+    "imagenes": [
+      "assets/img/sancarlos/panoramasvacacionesinvierno2026/IMG_7708.jpg"
+    ],
+    "imagenesInfo": [
+      {
+        "src": "assets/img/sancarlos/panoramasvacacionesinvierno2026/IMG_7708.jpg",
+        "alt": "Show Musical Cachureos - San Carlos (IMG_7708)",
+        "caption": "",
+        "credit": "",
+        "license": "",
+        "sizeBytes": 778201,
+        "width": 828,
+        "height": 999
+      }
+    ],
+    "horario": [],
+    "servicios": [
+      "Talleres",
+      "Actividades familiares",
+      "Feria local"
+    ],
+    "tags": [
+      "vacaciones",
+      "invierno",
+      "sancarlos",
+      "panoramas"
+    ]
+  }
 ]
