@@ -153,7 +153,7 @@ function crearCarrusel(item) {
   ` : '';
 
   return `
-    <div class="detail-carousel" data-carousel>
+    <div class="detail-carousel ${item.tipo === 'Evento' ? 'event' : ''}" data-carousel>
       <div class="carousel-main">
         <img id="carouselImage" src="${imagenes[0]}" alt="${item.nombre}">
         <div class="carousel-counter" id="carouselCounter">1 / ${imagenes.length}</div>
@@ -210,7 +210,7 @@ function crearDetalle(item) {
       ${crearCarrusel(item)}
       <div class="detail-content">
         <span class="eyebrow">${item.tipo} · ${item.categoria}</span>
-        <h1>${item.nombre}</h1>
+        <h3>${item.nombre}</h3>
         <p>${item.descripcionLarga || item.descripcion}</p>
         <div class="meta"><span>${item.region}</span><span>•</span><span>${item.provincia}</span><span>•</span><span>${item.comuna}</span></div>
         <div class="detail-actions">
@@ -226,8 +226,7 @@ function crearDetalle(item) {
           <div class="info-box"><strong>Dirección</strong><span>${item.direccion || 'No informada'}</span></div>
           <div class="info-box"><strong>Referencia</strong><span>${item.referencia || 'No informada'}</span></div>
           ${fechasEvento}
-          <div class="info-box"><strong>Plan</strong><span>${item.plan}</span></div>
-          <div class="info-box"><strong>Estado</strong><span>${item.estado}</span></div>
+          
         </div>
       </div>
     </div>

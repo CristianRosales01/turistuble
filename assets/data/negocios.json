@@ -1,6 +1,134 @@
 [
-  {
+    {
     "id": 1,
+    "nombre": "Campeonato Nacional de Cueca Juvenil (Ránquil 2026)",
+    "slug": "campeonato-nacional-cueca-juvenil-ranquil-2026",
+    "tipo": "Evento",
+    "categoria": "Panoramas",
+    "subcategoria": "Competencia Nacional",
+    "region": "Ñuble",
+    "provincia": "Diguillín",
+    "comuna": "Ránquil",
+    "sector": "Gimnasio Municipal / Frontis Municipalidad",
+    "direccion": "Gimnasio Municipal de Ránquil",
+    "referencia": "Actividades en frontis municipal y exterior del gimnasio",
+    "ubicacionGoogleMaps": "https://www.google.com/maps/search/?api=1&query=Gimnasio+Municipal+Ránquil+Ñuble",
+    "descripcion": "Campeonato nacional de cueca juvenil con noches de competencia, feria productiva y actividades artísticas.",
+    "descripcionLarga": "Programa de varias jornadas: esquinazo oficial, feria productiva, ceremonias de inauguración y clausura, noches de competencia y final nacional. Evento organizado por la Cámara de Comercio, Turismo y Cultura de Ránquil.",
+    "precio": "En su mayoría gratis (entrada general con inscripción / según día)",
+    "destacado": true,
+    "plan": "Comunidad",
+    "estado": "Publicado",
+    "whatsapp": "",
+    "email": "",
+    "facebook": "",
+    "instagram": "",
+    "sitioWeb": "",
+    "fechaInicio": "2026-06-24",
+    "fechaFin": "2026-06-27",
+    "imagenes": [
+      "assets/img/camp_cueca_juv_nacional/campeonatocuecajuvenilnacional.jpg"
+    ],
+    "imagenesInfo": [
+      {
+        "src": "assets/img/camp_cueca_juv_nacional/campeonatocuecajuvenilnacional.jpg",
+        "alt": "Afiche Campeonato Nacional de Cueca - Juvenil y Adolescentes (Ránquil 2026)",
+        "caption": "Programa completo: esquinazo oficial, feria productiva, ceremonias e instancias de competencia (24–27 de junio de 2026).",
+        "credit": "Cámara de Comercio, Turismo y Cultura de Ránquil",
+        "license": ""
+      }
+    ],
+    "horario": [
+      { "dia": "2026-06-24", "evento": "Esquinazo oficial", "hora": "10:00", "lugar": "Frontis Municipalidad de Ránquil" },
+      { "dia": "2026-06-24", "evento": "Feria productiva", "hora": "14:00", "lugar": "Exterior del Gimnasio Municipal" },
+      { "dia": "2026-06-24", "evento": "Ceremonia de inauguración", "hora": "18:00", "lugar": "Gimnasio Municipal" },
+      { "dia": "2026-06-24", "evento": "Primera noche de competencia", "hora": "18:30", "lugar": "Gimnasio Municipal" },
+      { "dia": "2026-06-25", "evento": "Segunda noche de competencia", "hora": "18:00", "lugar": "Gimnasio Municipal" },
+      { "dia": "2026-06-25", "evento": "Feria productiva", "hora": "14:00", "lugar": "Exterior del Gimnasio Municipal" },
+      { "dia": "2026-06-26", "evento": "Peña folclórica / Artistas invitados", "hora": "19:00", "lugar": "Gimnasio Municipal" },
+      { "dia": "2026-06-26", "evento": "Feria productiva", "hora": "14:00", "lugar": "Exterior del Gimnasio Municipal" },
+      { "dia": "2026-06-27", "evento": "Final campeonato nacional", "hora": "18:00", "lugar": "Gimnasio Municipal" },
+      { "dia": "2026-06-27", "evento": "Ceremonia de premiación y clausura", "hora": "20:00", "lugar": "Gimnasio Municipal" }
+    ],
+    "servicios": [
+      "Feria productiva",
+      "Actividades culturales",
+      "Entrada pública"
+    ],
+    "tags": [
+      "cueca",
+      "competencia",
+      "ránquil",
+      "cultura",
+      "evento"
+    ]
+  }
+  ,
+  {
+    "id": 2,
+    "nombre": "Vacaciones de Invierno Ránquil 2026",
+    "slug": "vacaciones-invierno-ranquil-2026",
+    "tipo": "Evento",
+    "categoria": "Panoramas",
+    "subcategoria": "Temporada / Programación",
+    "region": "Ñuble",
+    "provincia": "Diguillín",
+    "comuna": "Ránquil",
+    "sector": "Gimnasio Municipal / Parque Estación",
+    "direccion": "Gimnasio Municipal de Ránquil / Parque Estación",
+    "referencia": "Programa de actividades junio y julio (ver horarios)",
+    "ubicacionGoogleMaps": "https://www.google.com/maps/search/?api=1&query=Gimnasio+Municipal+Ránquil+Ñuble",
+    "descripcion": "Programación de Vacaciones de Invierno 2026 en Ránquil: talleres, competencias, feria productiva, deporte y actividades familiares.",
+    "descripcionLarga": "Actividades culturales y deportivas organizadas por la Municipalidad de Ránquil durante las vacaciones de invierno: desde el 19 de junio hasta el 3 de julio. Incluye deporte a la calle, concurso de Noche de San Juan, nacional de cueca, expo gamer y talleres en la Casa de la Cultura.",
+    "precio": "Varía (mayormente gratuitas)",
+    "destacado": true,
+    "plan": "Comunidad",
+    "estado": "Publicado",
+    "whatsapp": "",
+    "email": "",
+    "facebook": "",
+    "instagram": "@muniranquil",
+    "sitioWeb": "",
+    "fechaInicio": "2026-06-19",
+    "fechaFin": "2026-07-03",
+    "imagenes": [
+      "assets/img/panoramas_ranquil/panoramasvacacionesranquil.jpg"
+    ],
+    "imagenesInfo": [
+      {
+        "src": "assets/img/panoramas_ranquil/panoramasvacacionesranquil.jpg",
+        "alt": "Afiche Vacaciones de Invierno Ránquil 2026",
+        "caption": "Programación completa de actividades junio y julio 2026 en Ránquil.",
+        "credit": "Municipalidad de Ránquil (@muniranquil)",
+        "license": ""
+      }
+    ],
+    "horario": [
+      { "dia": "2026-06-19 - 2026-06-30", "evento": "Deporte a la calle", "hora": "15:00", "lugar": "Parque Estación" },
+      { "dia": "2026-06-23", "evento": "Concurso - Noche de San Juan", "hora": "Por confirmar", "lugar": "(ver programación)" },
+      { "dia": "2026-06-23 - 2026-06-27", "evento": "Nacional de Cueca", "hora": "(varía)", "lugar": "Gimnasio Municipal" },
+      { "dia": "2026-06-26 - 2026-06-27", "evento": "Expo Gamer", "hora": "(varía)", "lugar": "Local Don Eladio" },
+      { "dia": "2026-07-01", "evento": "Taller Free Style", "hora": "15:00", "lugar": "Casa de la Cultura" },
+      { "dia": "2026-07-02", "evento": "Karting Chillán (inscripciones en DIDECO)", "hora": "Por confirmar", "lugar": "(ver organización)" },
+      { "dia": "2026-07-02 - 2026-07-03", "evento": "Vive el Mundial en Casa de la Cultura", "hora": "Todo el día", "lugar": "Casa de la Cultura" },
+      { "dia": "2026-07-03", "evento": "Taller de Cocina", "hora": "15:00", "lugar": "Casa Esquina" }
+    ],
+    "servicios": [
+      "Talleres",
+      "Feria productiva",
+      "Actividades deportivas",
+      "Actividades familiares"
+    ],
+    "tags": [
+      "vacaciones",
+      "invierno",
+      "ránquil",
+      "familia",
+      "panoramas"
+    ]
+  },
+  {
+    "id": 3,
     "nombre": "Ejemplo Cabañas Valle Las Trancas",
     "slug": "cabanas-valle-las-trancas",
     "tipo": "Negocio",
@@ -44,7 +172,7 @@
     ]
   },
   {
-    "id": 2,
+    "id": 4,
     "nombre": "Ejemplo Hotel Centro Chillán",
     "slug": "hotel-centro-chillan",
     "tipo": "Negocio",
@@ -87,7 +215,7 @@
     ]
   },
   {
-    "id": 3,
+    "id": 5,
     "nombre": "Ejemplo Fiesta Costumbrista de Ñuble",
     "slug": "fiesta-costumbrista-nuble",
     "tipo": "Evento",
@@ -134,7 +262,7 @@
     ]
   },
   {
-    "id": 4,
+    "id": 6,
     "nombre": "Ejemplo Sabores de Quillón",
     "slug": "sabores-de-quillon",
     "tipo": "Negocio",
@@ -174,96 +302,6 @@
       "quillón",
       "familia",
       "laguna"
-    ]
-  },
-  {
-    "id": 5,
-    "nombre": "Ejemplo Escapada San Fabián Aventura",
-    "slug": "escapada-san-fabian-aventura",
-    "tipo": "Negocio",
-    "categoria": "Experiencias",
-    "subcategoria": "Turismo aventura",
-    "region": "Ñuble",
-    "provincia": "Punilla",
-    "comuna": "San Fabián",
-    "sector": "Cordillera",
-    "direccion": "San Fabián de Alico",
-    "referencia": "Punto de encuentro en el centro de San Fabián",
-    "ubicacionGoogleMaps": "https://www.google.com/maps/search/?api=1&query=San+Fabián+de+Alico+Ñuble",
-    "descripcion": "Experiencias de naturaleza y aventura para descubrir ríos, senderos y paisajes cordilleranos.",
-    "descripcionLarga": "Ideal para viajeros que buscan trekking, fotografía, naturaleza y conexión con uno de los destinos más potentes de la precordillera de Ñuble.",
-    "precio": "Consultar",
-    "destacado": true,
-    "plan": "Emprendedor",
-    "estado": "Publicado",
-    "whatsapp": "+56977167740",
-    "email": "",
-    "facebook": "",
-    "instagram": "https://www.instagram.com/",
-    "sitioWeb": "",
-    "imagenes": [
-      "assets/img/placeholder-nature.svg",
-      "assets/img/placeholder-nature.svg",
-      "assets/img/placeholder-cabana.svg"
-    ],
-    "servicios": [
-      "Trekking",
-      "Guía local",
-      "Fotografía",
-      "Rutas naturales"
-    ],
-    "tags": [
-      "aventura",
-      "trekking",
-      "cordillera",
-      "naturaleza"
-    ]
-  },
-  {
-    "id": 6,
-    "nombre": "Ejemplo Feria Artesanal de Cobquecura",
-    "slug": "feria-artesanal-de-cobquecura",
-    "tipo": "Evento",
-    "categoria": "Panoramas",
-    "subcategoria": "Feria gratuita",
-    "region": "Ñuble",
-    "provincia": "Itata",
-    "comuna": "Cobquecura",
-    "sector": "Centro",
-    "direccion": "Plaza de Cobquecura",
-    "referencia": "Sector centro, camino hacia la costa",
-    "ubicacionGoogleMaps": "https://www.google.com/maps/search/?api=1&query=Plaza+Cobquecura+Ñuble",
-    "descripcion": "Feria abierta con artesanía, productos locales y emprendimientos costeros de la provincia de Itata.",
-    "descripcionLarga": "Panorama gratuito para recorrer Cobquecura, apoyar comercio local y disfrutar del ambiente costero de Ñuble.",
-    "precio": "Gratis",
-    "destacado": false,
-    "plan": "Comunidad",
-    "estado": "Publicado",
-    "whatsapp": "+56977167740",
-    "email": "",
-    "facebook": "https://www.facebook.com/",
-    "instagram": "",
-    "sitioWeb": "",
-    "fechaInicio": "2026-08-03",
-    "fechaFin": "2026-08-03",
-    "horaInicio": "10:00",
-    "horaFin": "18:00",
-    "imagenes": [
-      "assets/img/placeholder-evento.svg",
-      "assets/img/placeholder-food.svg",
-      "assets/img/placeholder-nature.svg"
-    ],
-    "servicios": [
-      "Entrada liberada",
-      "Artesanía",
-      "Productos locales",
-      "Ambiente familiar"
-    ],
-    "tags": [
-      "costa",
-      "feria",
-      "artesanía",
-      "gratis"
     ]
   }
 ]

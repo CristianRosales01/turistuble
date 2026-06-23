@@ -282,12 +282,27 @@ input:focus, select:focus, textarea:focus { border-color: rgba(15, 123, 95, .55)
 .detail-card, .form-card { background: var(--surface); border: 1px solid var(--line); border-radius: 34px; box-shadow: var(--shadow); overflow: hidden; }
 .detail-hero { display: grid; grid-template-columns: 1fr 1fr; gap: 0; }
 .detail-content { padding: 34px; }
-.detail-content h1 { font-size: clamp(2rem, 4vw, 3.8rem); line-height: 1; letter-spacing: -.07em; margin: 10px 0 14px; }
+.detail-content h1 { font-size: clamp(1.875rem, calc(4vw - 0.125rem), 3.675rem); line-height: 1; letter-spacing: -.07em; margin: 10px 0 14px; }
+.detail-content h3 { font-size: clamp(1.875rem, calc(4vw - 0.125rem), 3.675rem); line-height: 1; letter-spacing: -.07em; margin: 10px 0 14px; }
 .detail-content p { color: var(--muted); line-height: 1.7; }
 .detail-actions { display: flex; gap: 10px; flex-wrap: wrap; margin: 22px 0; }
 .detail-carousel { min-height: 100%; background: var(--surface-2); display: grid; grid-template-rows: 1fr auto; }
 .carousel-main { position: relative; min-height: 430px; overflow: hidden; }
 .carousel-main img { width: 100%; height: 100%; min-height: 430px; object-fit: cover; }
+
+/* Mostrar posters completos para eventos (no recortar) */
+.detail-carousel.event .carousel-main { min-height: auto; }
+.detail-carousel.event .carousel-main img {
+  width: auto;
+  height: auto;
+  max-height: 640px;
+  object-fit: contain;
+  margin: 0 auto;
+  display: block;
+}
+@media (max-width: 720px) {
+  .detail-carousel.event .carousel-main img { max-height: 360px; }
+}
 .carousel-control { position: absolute; top: 50%; transform: translateY(-50%); width: 44px; height: 44px; border: 0; border-radius: 999px; background: rgba(255,255,255,.92); color: var(--primary); font-size: 2rem; line-height: 1; font-weight: 900; cursor: pointer; box-shadow: var(--soft-shadow); }
 .carousel-prev { left: 16px; }
 .carousel-next { right: 16px; }

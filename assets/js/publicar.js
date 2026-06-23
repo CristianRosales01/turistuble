@@ -27,10 +27,10 @@ function obtenerPlanSolicitado() {
   }
 
   if (tipo === 'Negocio Turístico Destacado') {
-    return 'Destacado $9.990 mensual';
+    return 'Comunidad gratis';
   }
 
-  return 'Emprendedor $5.990 mensual';
+  return 'Comunidad gratis';
 }
 
 function generarMensaje() {
