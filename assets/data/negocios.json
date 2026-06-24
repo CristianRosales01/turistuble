@@ -143,7 +143,7 @@
     "descripcion": "Fiesta de la Longaniza: feria gastronómica en el centro de Chillán.",
     "descripcionLarga": "Festival con stands de longaniza y gastronomía local, música en vivo y actividades familiares. Horario: 11:00 a 23:00 hrs, viernes a domingo.",
     "precio": "Varía (puestos con costo)",
-    "destacado": false,
+    "destacado": true,
     "plan": "Comunidad",
     "estado": "Publicado",
     "whatsapp": "",
